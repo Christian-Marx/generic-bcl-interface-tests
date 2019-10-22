@@ -8,7 +8,6 @@
             "args": [
                 "build",
                 "${workspaceFolder}/abstract-tests.csproj",
-                "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
@@ -20,7 +19,6 @@
             "args": [
                 "publish",
                 "${workspaceFolder}/abstract-tests.csproj",
-                "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
@@ -33,7 +31,6 @@
                 "watch",
                 "run",
                 "${workspaceFolder}/abstract-tests.csproj",
-                "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"

@@ -1,0 +1,41 @@
+{
+    "editor.useTabStops": false,
+	"editor.insertSpaces": true,
+	"editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    "psi-header.config": {
+		"forceToTop": true,
+		"blankLinesAfter": 1,
+		"license": "Custom"
+    },
+
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "autoHeader": "manualSave",
+        "include": ["csharp"]
+    },
+
+    "psi-header.license-text": [
+        "This file is licensed to you under the MIT license.",
+        "See the LICENSE.TXT file in the project root for more information."
+	],
+
+    "psi-header.templates": [
+        {
+            "language": "csharp",
+            "template": [
+                "<<licensetext>>"
+            ]
+        },
+    ],
+
+    "psi-header.lang-config": [
+		{
+			"language": "csharp",
+			"begin": "",
+			"end": "",
+			"prefix": "// "
+		}
+	]
+}

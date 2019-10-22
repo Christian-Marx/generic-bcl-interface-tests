@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>AbstractTests</RootNamespace>
+    <RootNamespace>GenericBclInterfaceTests</RootNamespace>
     <GenerateFullPaths>true</GenerateFullPaths>
     <NullableContextOptions>enable</NullableContextOptions>
+    <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
