@@ -2,7 +2,7 @@
 
 ## Idea
 
-This repository provides generic tests for classes that implement interfaces of the .NET base class library (e. g. IEquatable, IEquatable<T>...).
+This repository provides generic tests for classes that implement interfaces of the .NET base class library (e. g. IEquatable, IEquatable&lt;T&gt;...).
 
 ## Why should I use this project?
 
